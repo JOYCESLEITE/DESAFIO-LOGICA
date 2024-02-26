@@ -2,12 +2,11 @@
 
 
 
-// Definindo variáveis
-let nomeDoHeroi = "bronze";
-let xpDoHeroi = 1500;  // Altere este valor conforme necessário
+let nomeDoHeroi = "heroibronze";
+let xpDoHeroi = 1500;  
 let nivelDoHeroi;
 
-// Estrutura de decisão para determinar o nível
+
 if (xpDoHeroi < 1000) {
     nivelDoHeroi = "Ferro";
 } else if (xpDoHeroi >= 1001 && xpDoHeroi <= 2000) {
@@ -26,5 +25,5 @@ if (xpDoHeroi < 1000) {
     nivelDoHeroi = "Radiante";
 }
 
-// Exibindo a mensagem final
-console.log(`O Herói de nome ${nomeDoHeroi} está no nível de ${nivelDoHeroi}.`);
+
+console.log(`O Herói de nome ${nomeDoHeroi} está no nível  ${nivelDoHeroi}.`);
